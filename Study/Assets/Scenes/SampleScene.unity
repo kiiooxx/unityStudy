@@ -513,6 +513,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4452876745706637525, guid: 141a09cc70854ca4ab22426158dfa0be, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 79291836ece02104385fcc6d4bdc3c50, type: 2}
     - target: {fileID: 7339645480402131770, guid: 141a09cc70854ca4ab22426158dfa0be, type: 3}
       propertyPath: groundLayer.m_Bits
       value: 256
