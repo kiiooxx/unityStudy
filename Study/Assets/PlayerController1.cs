@@ -17,6 +17,14 @@ public class PlayerController1 : MonoBehaviour
         {
             animater.SetTrigger("isDie");
         }
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            animater.SetBool("isUp", true);
+        }
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            animater.SetBool("isDown", true);
+        }
     }
 
     public void OnDieEvent()
